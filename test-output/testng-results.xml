@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T14:06:11 NST" name="Free CRM App Test Automation Suite" finished-at="2022-02-02T14:06:33 NST" duration-ms="21759">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T14:06:11 NST" name="Free CRM Test using Chrome" finished-at="2022-02-02T14:06:19 NST" duration-ms="7712">
+      <class name="com.qa.my.tests.LoginPageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:11 NST" name="openBrowser" finished-at="2022-02-02T14:06:14 NST" duration-ms="2476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:14 NST" name="verifyLoginPageTitleTest" finished-at="2022-02-02T14:06:14 NST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:14 NST" name="closeBrowser" finished-at="2022-02-02T14:06:14 NST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:14 NST" name="openBrowser" finished-at="2022-02-02T14:06:16 NST" duration-ms="2012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="performLoginActionTest()[pri:2, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:16 NST" name="performLoginActionTest" finished-at="2022-02-02T14:06:19 NST" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginActionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.my.tests.LoginPageTest@5acf93bb]" started-at="2022-02-02T14:06:19 NST" name="closeBrowser" finished-at="2022-02-02T14:06:19 NST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.my.tests.LoginPageTest -->
+    </test> <!-- Free CRM Test using Chrome -->
+    <test started-at="2022-02-02T14:06:19 NST" name="Free CRM Test using Firefox" finished-at="2022-02-02T14:06:33 NST" duration-ms="13997">
+      <class name="com.qa.my.tests.LoginPageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:19 NST" name="openBrowser" finished-at="2022-02-02T14:06:24 NST" duration-ms="4814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:24 NST" name="verifyLoginPageTitleTest" finished-at="2022-02-02T14:06:24 NST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:24 NST" name="closeBrowser" finished-at="2022-02-02T14:06:25 NST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:25 NST" name="openBrowser" finished-at="2022-02-02T14:06:29 NST" duration-ms="4557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="performLoginActionTest()[pri:2, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:29 NST" name="performLoginActionTest" finished-at="2022-02-02T14:06:32 NST" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginActionTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.my.tests.LoginPageTest@121314f7]" started-at="2022-02-02T14:06:32 NST" name="closeBrowser" finished-at="2022-02-02T14:06:33 NST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.my.tests.LoginPageTest -->
+    </test> <!-- Free CRM Test using Firefox -->
+  </suite> <!-- Free CRM App Test Automation Suite -->
+</testng-results>

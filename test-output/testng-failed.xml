@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Free CRM App Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="Free CRM Test using Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.my.tests.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="performLoginActionTest"/>
+        </methods>
+      </class> <!-- com.qa.my.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM Test using Chrome(failed) -->
+</suite> <!-- Failed suite [Free CRM App Test Automation Suite] -->
