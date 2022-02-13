@@ -58,7 +58,7 @@ public class BaseTest
 		
 	}
 	
-	@AfterMethod
+	//@AfterMethod
 	public void closeBrowser()
 	{
 		System.out.println("After Method Tested and is Working Fine.");
