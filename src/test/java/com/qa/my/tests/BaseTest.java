@@ -21,7 +21,6 @@ public class BaseTest
 	@BeforeMethod
 	public void openBrowser(String browser) throws InterruptedException
 	{
-		browser = "Chrome";
 //		if(browser.equals("Firefox")) 
 //		{
 //			//System.setProperty("webdriver.gecko.driver", "C:\\SeleniumJars\\geckodriver.exe");
